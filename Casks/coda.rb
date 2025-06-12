@@ -1,13 +1,13 @@
 cask "coda" do
-  version "v0.0.1"
+  version "v0.0.2"
 
   on_intel do
-    sha256 "4ee6bb0605091bda125cf6ec8884095d4286c446b851384a3d533243ea463b92"
+    sha256 "7855f4221c34e97cac0e68dee7ecb66aeef543318c191a6fb4a096225f7fa057"
     url "https://github.com/yosev/coda-cli/releases/download/#{version}/coda-darwin-amd64.tar.gz"
   end
 
   on_arm do
-    sha256 "abfbcee5914570fbb43d94acf2a4484184fa5142d3b9f759e957df74986d83e2"
+    sha256 "1a6042cd0e6d1b44cb114af7b076106435e0271cfbb868b682c75967637ebd51"
     url "https://github.com/yosev/coda-cli/releases/download/#{version}/coda-darwin-arm64.tar.gz"
   end
 
